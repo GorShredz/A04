@@ -1,2 +1,41 @@
-# A04
+username = "GorShredz"
+course_name = "Website Development"
+course_number = "IS117"
+section = "001"
+name = "Gabriel Siqueira"
+due_date = "October 14, 2025"
 
+<!--
+  File: my-first-web-page.html
+  Description: A simple webpage showing username, course details,
+               and a footer with copyright, name, and due date.
+-->
+
+<!DOCTYPE html> <!-- Declares the document type and version of HTML being used (HTML5). -->
+<html lang="en"> <!-- Opens the HTML document and specifies English as the language. -->
+  
+<head> <!-- The head section contains metadata and the page title. -->
+  <meta charset="UTF-8"> <!-- Sets the character encoding so all characters display correctly. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the page is mobile responsive. -->
+  <title>My First Web Page</title> <!-- The title that appears in the browser tab. -->
+</head>
+
+<body> <!-- The body contains all the visible content of the webpage. -->
+
+  <!-- Main heading with username -->
+  <h1>Username: {username}</h1> <!-- Displays the username as a large heading. -->
+
+  <!-- Course name -->
+  <h2>Course Name: {course_name}</h2> <!-- Displays the course name. -->
+
+  <!-- Course number and section -->
+  <h3>Course Number and Section: {course_number} - Section {section}</h3> <!-- Displays course number and section. -->
+
+  <!-- Footer section -->
+  <footer> <!-- Contains the copyright, your name, and the due date. -->
+    <p>&copy; {name} - Due Date: {due_date}</p> <!-- &copy; prints the © symbol. -->
+  </footer> <!-- End of footer. -->
+
+</body> <!-- Ends the body section. -->
+  
+</html> <!-- Ends the HTML document. -->
